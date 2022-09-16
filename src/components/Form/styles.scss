@@ -1,0 +1,40 @@
+$main: #10aa5f;
+$hover: #10ba7f;
+
+.form-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 40px;
+  border-radius: 10px;
+  gap: 20px;
+  .name-field {
+    width: 600px;
+  }
+  .price-field {
+    width: 200px;
+  }
+  .qty-field {
+    width: 200px;
+  }
+  .button{
+    border-radius: 4px;
+    padding: 0.7rem;
+    width: 100px;
+    height: 42px;
+    font-size: 16px;
+    margin: 5px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: $main;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    border: 0;
+    outline: 2px solid $main;
+}
+}

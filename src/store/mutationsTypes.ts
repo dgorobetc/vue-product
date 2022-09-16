@@ -1,0 +1,6 @@
+export const CREATE_PRODUCT = 'create-product'
+export const SELECT_PRODUCT = 'select-product'
+export const DESELECT_PRODUCT = 'deselect-product'
+export const REMOVE_SELECTED_PRODUCTS = 'remove-selected-products'
+export const SELECT_ALL_PRODUCTS = 'select-all-products'
+export const DESELECT_ALL_PRODUCTS = 'deselect-all-products'

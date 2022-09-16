@@ -1,0 +1,73 @@
+.table-wrapper {
+  max-width: 1200px;
+  width: 100%;
+
+  margin: 50px auto;
+  .table-wrapper {
+    .raw-wrap {
+      display: flex;
+    }
+  }
+}
+.product-raw {
+  width: 40%;
+  padding: 0.75em 0.75em 0.75em 0.75em;
+}
+.price-raw {
+  width: 15%;
+  padding: 0.75em 0.75em 0.75em 0.75em;
+}
+.qty-raw {
+  width: 15%;
+  padding: 0.75em 0.75em 0.75em 0.75em;
+}
+.sum-raw {
+  width: 25%;
+  padding: 0.75em 0.75em 0.75em 0.75em;
+}
+.checkbox-wrap {
+  display: flex;
+  background-color: #f1f1f1;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  min-width: 50px;
+}
+thead th,
+thead td {
+  background-color: #f1f1f1;
+}
+table,
+th,
+td {
+  border: 1px solid;
+}
+.bottom-raw {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 20px 20px;
+  width: 100%;
+  button {
+    border-radius: 4px;
+    padding: 0.7rem;
+    width: 100px;
+    height: 42px;
+    font-size: 16px;
+    margin: 5px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: #ce264f;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    border: 0;
+    outline: 2px solid #10aa5f;
+  }
+  .total-title {
+    font-size: 18px;
+  }
+}
