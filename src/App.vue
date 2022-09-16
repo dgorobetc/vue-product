@@ -1,28 +1,21 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Hello Vue 2 + TypeScript + Vite" />
+    <Form />
+    <Table />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from '@vue/composition-api'
-import HelloWorld from './components/HelloWorld.vue'
+import Form from './components/Form/index.vue'
+import Table from './components/Table/index.vue'
 
 export default defineComponent({
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  components: { Form, Table },
 })
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+@import './assets/styles.scss';
 </style>
