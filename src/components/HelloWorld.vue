@@ -15,7 +15,9 @@
     </p>
 
     <p>See <code>README.md</code> for more information.</p>
-
+    <div>
+      test I love vue  test new text
+    </div>
     <p>
       <a href="https://vitejs.dev/guide/features.html" target="_blank">
         Vite Docs
